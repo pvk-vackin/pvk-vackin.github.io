@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>楠溪江一日游-精华路线与实用游玩攻略指南</title>
+    <meta name="description" content="楠溪江一日游攻略，涵盖经典路线规划、必玩景点推荐、竹筏漂流体验、美食及交通指南，帮助您高效安排楠溪江一日行程。">
+    <meta name="keywords" content="楠溪江一日游,楠溪江攻略,楠溪江路线,楠溪江漂流,楠溪江景点,永嘉旅游">
+    <link rel="stylesheet" href="data:text/css,">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            background-color: #f4f9f6;
+            color: #2d3e3a;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* header */
+        .site-header {
+            background: linear-gradient(135deg, #1a4d3c, #2b7a5e);
+            padding: 15px 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .logo-area h1 {
+            color: #f0f9f2;
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .logo-area p {
+            color: #bfe3d0;
+            font-size: 0.9rem;
+        }
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        .nav-links a {
+            color: #e3f2e9;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 6px 0;
+            border-bottom: 2px solid transparent;
+            transition: 0.2s;
+        }
+        .nav-links a:hover {
+            border-bottom-color: #ffd78c;
+            color: #ffd78c;
+        }
+
+        /* mobile nav */
+        .mobile-nav {
+            display: none;
+        }
+
+        /* hero */
+        .hero {
+            background: linear-gradient(108deg, #e7f5ef 0%, #cbe9dc 100%);
+            padding: 60px 0;
+            margin-bottom: 20px;
+        }
+        .hero-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 30px;
+        }
+        .hero-text {
+            flex: 1 1 350px;
+        }
+        .hero-text h2 {
+            font-size: 2.3rem;
+            color: #0f3d2e;
+            font-weight: 800;
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+        .hero-text p {
+            font-size: 1.1rem;
+            color: #2c5a48;
+            margin-bottom: 20px;
+        }
+        .hero-badge {
+            display: inline-block;
+            background: #0f6b4c;
+            color: #fff;
+            padding: 8px 18px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            box-shadow: 0 4px 8px rgba(15, 107, 76, 0.2);
+        }
+        .hero-visual {
+            flex: 1 1 300px;
+            background: #ffffffb3;
+            padding: 25px;
+            border-radius: 24px;
+            backdrop-filter: blur(2px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
+            border: 1px solid #ffffff;
+        }
+        .hero-visual h3 {
+            color: #0f3d2e;
+            margin-bottom: 12px;
+            font-size: 1.2rem;
+        }
+        .route-mini-list {
+            list-style: none;
+        }
+        .route-mini-list li {
+            padding: 8px 0;
+            border-bottom: 1px dashed #9bcbb5;
+            display: flex;
+            gap: 8px;
+            font-size: 0.95rem;
+        }
+        .route-mini-list li:last-child {
+            border-bottom: none;
+        }
+        .time-tag {
+            background: #2b7a5e;
+            color: white;
+            border-radius: 20px;
+            padding: 0 12px;
+            font-size: 0.8rem;
+            display: inline-flex;
+            align-items: center;
+            white-space: nowrap;
+        }
+
+        /* section */
+        .section {
+            padding: 40px 0;
+        }
+        .section-title {
+            font-size: 1.8rem;
+            color: #0f3d2e;
+            margin-bottom: 20px;
+            padding-left: 14px;
+            border-left: 6px solid #2b7a5e;
+        }
+        .section-sub {
+            color: #4a6b5e;
+            margin-bottom: 25px;
+            font-size: 1rem;
+        }
+
+        /* cards */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 25px;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 24px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 1px solid #e0efe7;
+        }
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+        }
+        .card-icon {
+            font-size: 2rem;
+            margin-bottom: 12px;
+        }
+        .card h3 {
+            color: #174e3a;
+            margin-bottom: 10px;
+            font-size: 1.25rem;
+        }
+        .card p {
+            color: #3d5a4e;
+            font-size: 0.95rem;
+        }
+        .card-tag {
+            display: inline-block;
+            background: #e5f2eb;
+            color: #0f6b4c;
+            border-radius: 20px;
+            padding: 4px 12px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-top: 12px;
+        }
+
+        /* itinerary */
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            margin-top: 20px;
+        }
+        .timeline-item {
+            background: white;
+            border-radius: 20px;
+            padding: 20px 25px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+            border-left: 6px solid #1a8c68;
+        }
+        .timeline-time {
+            font-weight: 700;
+            color: #0f6b4c;
+            background: #e0f2e9;
+            padding: 6px 14px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
+        .timeline-content {
+            flex: 1;
+            min-width: 200px;
+        }
+        .timeline-content h3 {
+            color: #0f3d2e;
+            font-size: 1.2rem;
+            margin-bottom: 6px;
+        }
+        .timeline-content p {
+            color: #3e5f51;
+            font-size: 0.95rem;
+        }
+
+        /* two column */
+        .two-col {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .two-col > div {
+            flex: 1 1 300px;
+        }
+
+        /* tips / faq */
+        .info-panel {
+            background: #fff;
+            border-radius: 20px;
+            padding: 24px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+            margin-bottom: 20px;
+        }
+        .info-panel h3 {
+            color: #0f3d2e;
+            margin-bottom: 12px;
+            font-size: 1.2rem;
+        }
+        .info-list {
+            list-style: none;
+        }
+        .info-list li {
+            padding: 6px 0;
+            padding-left: 22px;
+            position: relative;
+            color: #2f5544;
+        }
+        .info-list li::before {
+            content: "●";
+            color: #2b7a5e;
+            position: absolute;
+            left: 0;
+            font-size: 0.8rem;
+            top: 8px;
+        }
+
+        /* faq */
+        .faq-item {
+            background: #fff;
+            border-radius: 16px;
+            padding: 18px 20px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+        }
+        .faq-q {
+            font-weight: 600;
+            color: #0f3d2e;
+            margin-bottom: 8px;
+            font-size: 1.05rem;
+        }
+        .faq-a {
+            color: #3a5c4d;
+            font-size: 0.95rem;
+        }
+
+        /* food & tickets */
+        .highlight-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin: 20px 0;
+        }
+        .highlight-item {
+            background: #ecf7f1;
+            border-radius: 16px;
+            text-align: center;
+            padding: 20px 10px;
+            border: 1px solid #cde5d8;
+        }
+        .highlight-item .name {
+            font-weight: 700;
+            color: #174e3a;
+            margin-bottom: 6px;
+        }
+        .highlight-item .desc {
+            font-size: 0.9rem;
+            color: #3f6b58;
+        }
+
+        /* footer */
+        .site-footer {
+            background: #163b2e;
+            color: #c6ded2;
+            padding: 30px 0;
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        .site-footer a {
+            color: #e5b873;
+            text-decoration: none;
+        }
+
+        /* responsive */
+        @media (max-width: 768px) {
+            .header-inner {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+            .nav-links {
+                justify-content: center;
+                gap: 16px;
+                font-size: 0.9rem;
+            }
+            .hero {
+                padding: 40px 0;
+            }
+            .hero-text h2 {
+                font-size: 1.8rem;
+            }
+            .section-title {
+                font-size: 1.5rem;
+            }
+            .timeline-item {
+                padding: 16px;
+            }
+            .timeline-time {
+                font-size: 0.8rem;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 14px;
+            }
+            .nav-links {
+                gap: 10px;
+                flex-wrap: wrap;
+            }
+            .logo-area h1 {
+                font-size: 1.5rem;
+            }
+            .hero-text h2 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo-area">
+                <h1>楠溪江一日游</h1>
+                <p>永嘉山水 · 精华路线指南</p>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#route">路线规划</a></li>
+                    <li><a href="#spots">必玩景点</a></li>
+                    <li><a href="#raft">竹筏漂流</a></li>
+                    <li><a href="#food">美食推荐</a></li>
+                    <li><a href="#faq">常见问题</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="hero-badge">⛰️ 经典一日游路线</span>
+                <h2>一天时间，玩转楠溪江精华</h2>
+                <p>楠溪江位于浙江温州永嘉县，以水秀、岩奇、瀑多、村古闻名。一日游行程紧凑但不疲惫，合理串联核心景点与体验，让您在有限时间内感受山水田园之美。</p>
+                <p style="margin-top: 12px; font-weight: 500;">👉 推荐季节：4-6月、9-11月，气候宜人，水量充沛。</p>
+            </div>
+            <div class="hero-visual">
+                <h3>🗺️ 一日游速览</h3>
+                <ul class="route-mini-list">
+                    <li><span class="time-tag">08:30</span> 岩头镇 · 丽水街古村</li>
+                    <li><span class="time-tag">10:30</span> 狮子岩 · 竹筏漂流</li>
+                    <li><span class="time-tag">12:00</span> 岭上人家 · 烤全羊午餐</li>
+                    <li><span class="time-tag">14:00</span> 苍坡村 · 耕读文化</li>
+                    <li><span class="time-tag">15:30</span> 石桅岩 · 徒步赏景</li>
+                    <li><span class="time-tag">17:30</span> 返程 / 自由活动</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- 核心信息 -->
+        <section class="section" id="route">
+            <div class="container">
+                <h2 class="section-title">一日游经典路线规划</h2>
+                <p class="section-sub">以岩头镇为中心，串联楠溪江中上游最具代表性的自然与人文景观，适合自驾或包车游客。</p>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="timeline-time">08:00 - 08:30</span>
+                        <div class="timeline-content">
+                            <h3>出发 · 抵达岩头镇</h3>
+                            <p>从温州市区出发约1小时车程，或乘坐瓯北至岩头班车。建议尽早出发，避开人流。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-time">08:30 - 10:00</span>
+                        <div class="timeline-content">
+                            <h3>丽水街 · 古村漫步</h3>
+                            <p>丽水街是岩头镇保存完好的古街，长廊依水而建，卵石路面，适合拍照。早晨光线柔和，游客较少。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-time">10:00 - 12:00</span>
+                        <div class="timeline-content">
+                            <h3>狮子岩 · 竹筏漂流</h3>
+                            <p>狮子岩是楠溪江漂流的经典起点。乘竹筏顺流而下，沿途可欣赏滩林、碧水和奇岩，约1小时。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-time">12:00 - 14:00</span>
+                        <div class="timeline-content">
+                            <h3>岭上人家 · 特色午餐</h3>
+                            <p>岭上人家以烤全羊闻名，需提前预订。也有溪鱼、本地时蔬等农家菜，性价比高。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-time">14:00 - 15:30</span>
+                        <div class="timeline-content">
+                            <h3>苍坡村 · 耕读文化</h3>
+                            <p>苍坡村是宋代古村，规划独特，建有笔街、砚池、墨池等，感受楠溪江流域的耕读传统。</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-time">15:30 - 17:30</span>
+                        <div class="timeline-content">
+                            <h3>石桅岩 · 徒步观景</h3>
+                            <p>石桅岩三面环溪，一峰拔地，可沿步道环行，约2小时。体力有限者可选择半程。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 景点卡片 -->
+        <section class="section" id="spots" style="background: #eaf4ef;">
+            <div class="container">
+                <h2 class="section-title">不可错过的核心景点</h2>
+                <p class="section-sub">楠溪江景点分散，一日游建议按区域分组，避免来回奔波。</p>
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-icon">🏞️</div>
+                        <h3>石桅岩</h3>
+                        <p>景区内溪流碧绿，山势险峻。核心景观是一块高耸的巨岩，形如船桅。步道完善，老少皆宜。</p>
+                        <span class="card-tag">徒步 · 约2小时</span>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🛶</div>
+                        <h3>狮子岩漂流</h3>
+                        <p>江中一座小岛形似雄狮，附近水域开阔，是体验竹筏漂流的理想地段。水流平缓，适合家庭。</p>
+                        <span class="card-tag">漂流 · 约1小时</span>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🏘️</div>
+                        <h3>丽水街</h3>
+                        <p>古街全长300多米，临水而建，有屋檐遮雨。夜晚灯笼亮起时别有韵味，但一日游建议白天游览。</p>
+                        <span class="card-tag">人文 · 约1小时</span>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🌾</div>
+                        <h3>苍坡村</h3>
+                        <p>南宋淳熙年间规划的古村，按“文房四宝”布局。村内保留大量古民居，感受耕读传家。</p>
+                        <span class="card-tag">古村 · 约1小时</span>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🌊</div>
+                        <h3>龙湾潭</h3>
+                        <p>位于楠溪江上游，有七折瀑、玻璃观景台。若时间充裕可替换石桅岩，但需更多车程。</p>
+                        <span class="card-tag">备选 · 约2.5小时</span>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">📸</div>
+                        <h3>芙蓉古村</h3>
+                        <p>以“七星八斗”布局闻名，村中保留大量明清建筑。适合喜欢古建筑摄影的游客。</p>
+                        <span class="card-tag">人文 · 约1小时</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 漂流与体验 -->
+        <section class="section" id="raft">
+            <div class="container two-col">
+                <div>
+                    <h2 class="section-title">竹筏漂流体验指南</h2>
+                    <p>楠溪江竹筏漂流是核心体验项目，不同于刺激的皮筏艇，这里更偏重悠闲赏景。全程约1小时，每筏4-6人。</p>
+                    <div class="info-panel">
+                        <h3>漂流小贴士</h3>
+                        <ul class="info-list">
+                            <li>建议穿凉鞋或拖鞋，裤脚容易沾水</li>
+                            <li>手机相机做好防水措施</li>
+                            <li>夏季注意防晒，戴好遮阳帽</li>
+                            <li>漂流费用需提前确认，包含保险</li>
+                            <li>雨后水量增大，景色更佳，但听从指挥</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="section-title">门票信息参考</h2>
+                    <div class="highlight-grid">
+                        <div class="highlight-item">
+                            <div class="name">丽水街</div>
+                            <div class="desc">15元/人，联票有优惠</div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="name">石桅岩</div>
+                            <div class="desc">50元/人（参考）</div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="name">苍坡村</div>
+                            <div class="desc">15元/人（参考）</div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="name">竹筏漂流</div>
+                            <div class="desc">约120-180元/筏</div>
+                        </div>
+                    </div>
+                    <p style="font-size:0.9rem; color:#4a6b5e;">⚠️ 实际价格以景区当日公示为准，建议出发前通过官方渠道确认。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 美食与住宿 -->
+        <section class="section" id="food" style="background: #f0f7f3;">
+            <div class="container">
+                <h2 class="section-title">楠溪江美食与午餐推荐</h2>
+                <p class="section-sub">一日游通常包含一顿午餐，以下是当地口碑较有代表性的选择。</p>
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-icon">🍖</div>
+                        <h3>岭上人家烤全羊</h3>
+                        <p>外皮酥脆，肉质鲜嫩，是楠溪江最具特色的美食名片。位于石桅岩景区附近，建议提前3小时预订。</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🐟</div>
+                        <h3>楠溪江香鱼</h3>
+                        <p>当地溪流特产，体型小巧，肉质细嫩，通常油炸或清蒸，是许多农家乐的招牌菜。</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🥬</div>
+                        <h3>本地时蔬与麦饼</h3>
+                        <p>岩头镇街边麦饼馅料丰富（梅干菜肉、萝卜丝等），搭配农家青菜，简单实惠。</p>
+                    </div>
+                </div>
+                <div style="margin-top: 20px; background: #ffffff; border-radius: 16px; padding: 18px 22px;">
+                    <h3 style="color:#0f3d2e; margin-bottom: 8px;">🍽️ 用餐建议</h3>
+                    <p style="color:#3a5c4d;">大多数一日游游客会选择在岩头镇或岭上人家用餐。若想节省时间，可在丽水街附近简单吃些小吃，或提前准备干粮。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 交通指南 -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">交通与出行方式</h2>
+                <div class="two-col">
+                    <div>
+                        <div class="info-panel">
+                            <h3>🚗 自驾（推荐）</h3>
+                            <p>从温州市区出发，经瓯越大桥或诸永高速，约60-80分钟可达岩头镇。景点间车程多在20分钟内，灵活度高。</p>
+                        </div>
+                        <div class="info-panel">
+                            <h3>🚌 公共交通</h3>
+                            <p>温州瓯北码头有至岩头镇的班车（约1.5小时）。岩头镇有开往各景点的乡村公交，但班次较少，建议提前规划。</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="info-panel">
+                            <h3>📅 一日游行程建议</h3>
+                            <ul class="info-list">
+                                <li>若只有一天，建议选择中游岩头片区+石桅岩</li>
+                                <li>喜欢古村落可增加芙蓉村，减少徒步时间</li>
+                                <li>夏季可考虑上午漂流，下午逛古村</li>
+                                <li>节假日提前出发，避免堵车</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section" id="faq" style="background: #eaf4ef;">
+            <div class="container">
+                <h2 class="section-title">常见问题解答</h2>
+                <div class="faq-item">
+                    <div class="faq-q">Q：楠溪江一日游时间够吗？会不会太赶？</div>
+                    <div class="faq-a">A：一天时间可以游览2-3个主要景点。建议优先选择狮子岩漂流、丽水街和石桅岩（或苍坡村二选一），放弃距离较远的龙湾潭，行程会比较从容。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">Q：什么季节去楠溪江最合适？</div>
+                    <div class="faq-a">A：春秋季节（4-6月、9-11月）气温舒适，水量适中。夏季适合玩水漂流，但午后较热；冬季水位低，但游客少，古村更有韵味。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">Q：竹筏漂流需要提前预约吗？</div>
+                    <div class="faq-a">A：旺季（五一、国庆、周末）建议提前通过旅行社或当地民宿预订。平时现场买票即可，但下午4点后可能停止售票。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">Q：一日游大概花费多少？</div>
+                    <div class="faq-a">A：以自驾为例，门票+漂流+餐饮人均约200-300元（不含油费）。若选择包车或跟团，费用会相应增加。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">Q：可以带老人小孩吗？</div>
+                    <div class="faq-a">A：大部分景点步道平缓，适合老人儿童。竹筏漂流非常平稳，但需注意上下筏安全。石桅岩环线部分台阶较多，可量力而行。</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>楠溪江一日游 · 实用攻略指南 | 建议出发前关注当地天气与景区公告</p>
+            <p style="margin-top: 8px; font-size: 0.8rem; opacity: 0.7;">部分信息仅供参考，请以实际为准</p>
+        </div>
+    </footer>
+
+</body>
+                          </html>
